@@ -43,19 +43,19 @@ def arthimetic_operations():
     order_of_precedence = (2+6)*(6*4)/4
     print(order_of_precedence)
 
-#boolean
-print(bool(0))
-print(bool(1))
-print(bool(0.5))
-a=True
-print(bool(a))
-print(bool(c))
+def boolean_operations():
+    #boolean
+    print(bool(0))
+    print(bool(1))
+    print(bool(0.5))
+    a=True
+    print(bool(a))
 
-
-a,b,c=5,4,6
-d=e=f=10
-print('a={} b={} c={}'.format(a,b,c))
-print('d={} e={} f={}'.format(d,e,f))
+def using_format():
+    a,b,c=5,4,6
+    d=e=f=10
+    print('a={} b={} c={}'.format(a,b,c))
+    print('d={} e={} f={}'.format(d,e,f))
 
 print_values()
 print_value1()
@@ -64,3 +64,5 @@ a=True
 a=(5)
 print(type(a))
 arthimetic_operations()
+boolean_operations()
+using_format()
