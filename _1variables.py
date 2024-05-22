@@ -9,9 +9,9 @@ def print_values():
     # print(a)
     print(name)
     xxx="ccc"
-    # global xxx
 
-def print_value1():
+def print_value1():    
+    # global xxx
     # print(a)
     print(xxx)
 
