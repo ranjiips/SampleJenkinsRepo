@@ -14,32 +14,34 @@ def print_values():
 def print_value1():
     # print(a)
     print(xxx)
-#arthimetic operations
-b=a
-c=20
-add=b+c
-print(add)
 
-sub=b-c
-print(sub)
-
-mul=a*b
-print(mul)
-
-div=b/c
-print(div)
-
-quotient=b//c
-print(quotient)
-
-remainder=b%c
-print(remainder)
-
-exponents = 2**3
-print(exponents)
-#orer of predence
-order_of_precedence = (2+6)*(6*4)/4
-print(order_of_precedence)
+def arthimetic_operations():
+    #addition
+    b=a
+    c=20
+    add=b+c
+    print(add)
+    #subtraction
+    sub=b-c
+    print(sub)
+    #multiplication
+    mul=a*b
+    print(mul)
+    #division
+    div=b/c
+    print(div)
+    #quotient
+    quotient=b//c
+    print(quotient)
+    #reminder
+    remainder=b%c
+    print(remainder)
+    #exponents
+    exponents = 2**3
+    print(exponents)
+    #orer of predence
+    order_of_precedence = (2+6)*(6*4)/4
+    print(order_of_precedence)
 
 #boolean
 print(bool(0))
