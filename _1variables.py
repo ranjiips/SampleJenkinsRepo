@@ -63,3 +63,4 @@ print_value1()
 a=True
 a=(5)
 print(type(a))
+arthimetic_operations()
